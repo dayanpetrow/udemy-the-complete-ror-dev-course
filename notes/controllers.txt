@@ -1,0 +1,4 @@
+//display params in the browser as text
+def create
+  render plain: params[:article].inspect
+end

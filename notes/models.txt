@@ -1,0 +1,7 @@
+Model name => singular, first letter uppercase
+Table name => plural, lower case of model name
+Model name filename => all lowercase singular e.g. article.rb
+Controller name => plural of model e.g. articles_controller.rb
+
+article.errors.any?
+article.errors.full_messages
