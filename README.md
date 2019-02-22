@@ -14,3 +14,9 @@ rails new myapp -d postgresql
 cd /mnt/d/RubyOnRails/udemy-the-complete-ror-dev-course
 
 rails generate scaffold Article title:string description:string
+rails destroy scaffold Article
+
+//view debugger
+<%= debug(params) if Rails.env.development? %>
+//potential placeholder for a controller method
+render plain: params[:article].inspect
