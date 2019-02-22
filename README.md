@@ -20,3 +20,8 @@ rails destroy scaffold Article
 <%= debug(params) if Rails.env.development? %>
 //potential placeholder for a controller method
 render plain: params[:article].inspect
+
+
+
+//ruby 2.3.5
+sudo apt purge libssl-dev && sudo apt install libssl1.0-dev
